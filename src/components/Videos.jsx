@@ -1,7 +1,7 @@
 
 import Video from './Video';
 import { Link } from 'react-router-dom';
-import useVideosList from '../hooks/UseVideosList';
+import useVideosList from '../../hooks/UseVideosList';
 import { useState } from 'react';
 import InfiniteScroll from 'react-infinite-scroll-component';
 export default function Videos() {
