@@ -45,33 +45,33 @@ export default function SignUpForm() {
                  <TextInput icon={'user'}
                             type='text'
                             placeholder='Enter your name'
-                            required
+                            
                             value={username}
                             onChange={(e) => setUsername(e.target.value)} />
 
                  <TextInput icon={'envelope'}
                             type='email'
                             placeholder='Enter your email'
-                            required
+                            
                             value={email}
                             onChange={(e) => setEmail(e.target.value)} />
 
                  <TextInput icon={'lock'}
                             type='password'
                             placeholder='Password'
-                            required
+                            
                             value={password}
                             onChange={(e) => setPassword(e.target.value)} />
 
                  <TextInput icon={'check'}
                             type='password'
                             placeholder='Confirm password'
-                            required
+                           
                             value={confirmPassword}
                             onChange={(e) => setConfirmPassword(e.target.value)} />
 
                  <CheckBox text={'I agree to the Terms &amp; Conditions'}
-                           required
+                          
                            value={agree}
                            onChange={(e) => setAgree(e.target.checked)} />
 
